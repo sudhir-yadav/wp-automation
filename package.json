@@ -1,0 +1,16 @@
+{
+  "name": "trial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "trial.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Autiomation","Wordpress","Playwright","puppeteer"],
+  "author": "Sudhir",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "playwright": "^0.9.21"
+  }
+}
