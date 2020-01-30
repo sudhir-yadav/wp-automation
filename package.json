@@ -1,12 +1,17 @@
 {
-  "name": "trial",
+  "name": "wp-automation",
   "version": "1.0.0",
   "description": "",
-  "main": "trial.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": ["Autiomation","Wordpress","Playwright","puppeteer"],
+  "keywords": [
+    "Autiomation",
+    "Wordpress",
+    "Playwright",
+    "puppeteer"
+  ],
   "author": "Sudhir",
   "license": "ISC",
   "dependencies": {
