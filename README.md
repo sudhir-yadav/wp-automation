@@ -1,5 +1,5 @@
 # WP-Automation
-Wordpress Automation Script 
+WordPress Automation Script 
 
 #### Tools 
  - [Playwright](https://github.com/microsoft/playwright)
