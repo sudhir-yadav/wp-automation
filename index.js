@@ -28,8 +28,8 @@ const dotenv = require('dotenv').config();
   const passField   = await page.$('#user_pass');
   const loginButton = await page.$('#wp-submit');
 
-  await userField.fill( 'mldemo' );
-  await passField.type( 'mldemo#123');
+  await userField.fill( process.env.WP_USERNM );
+  await passField.type( process.env.WP_PASSWD );
   await page.screenshot( { path: './images/userpassword.png' } );
   await loginButton.click('button', {delay: 500});
   await page.waitForNavigation();
